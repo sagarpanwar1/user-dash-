@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* mycss */
+
+
+.SignInContainer {
+  /* height: 500px; */
+  width: auto;
+  background-color: burlywood;
+  height: 300px;
+  width: 500px;
+  background-color: burlywood;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 20px 0;
+  box-shadow: 2px 2px 2px 1px #ddd;
+}
+#submitButton {
+  border-radius: 13px;
+  width: 200px;
+}
+
+
+input {
+  width: 200px;
+  border-radius: 13px;
+}
+
+.signupcontainer {
+  width: auto;
+  background-color: burlywood;
+  height: 300px;
+  width: 500px;
+  background-color: burlywood;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 20px 0;
+  box-shadow: 2px 2px 2px 1px #ddd;
+}
+
+
+.tablecontainer {
+  /* height: ; */
+  background-color: aliceblue;
+}
