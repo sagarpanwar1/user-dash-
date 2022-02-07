@@ -14,7 +14,7 @@ const Login = ()=> {
     localStorage.setItem("admin@123", password);
     if (username === "admin" && password === "admin@123") {
       console.log("login success");
-      window.location.href = "https://www.google.com";
+      window.location.href = "/dashboard";
     } else {
       console.log("Login Failed");
       setError("Invalid Credentials");
@@ -29,11 +29,11 @@ const Login = ()=> {
 
         <FormGroup>
           {/* <Label for="exampleEmail">Email</Label> */}
-          <Input type="text" name="email" id="username" placeholder="Enter Email" />
-        </FormGroup>
+          <Input type="text" name="email" id="username" placeholder="Enter Email" onChange={(e) => setUsername(e.target.value)} />
+              </FormGroup>
         <FormGroup>
           {/* <Label for="examplePassword">Password</Label> */}
-          <Input type="password" name="password" id="password" placeholder=" Enter password "/>
+        <Input type="password" name="password" id="password" placeholder=" Enter password" onChange={(e) => setPassword(e.target.value)} />
         </FormGroup>
         <FormGroup>
           <Button id="submitButton">SigIn</Button>

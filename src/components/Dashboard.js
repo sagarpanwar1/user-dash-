@@ -7,7 +7,7 @@ function Dashboard() {
     <div className="tablecontainer">
       <h1>Welcome to the Dash</h1>
 
-      <Table responsive>
+      <Table>
         <thead>
           <tr>
             <th>
